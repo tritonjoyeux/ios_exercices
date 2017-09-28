@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+func condog(str: String, prefix: Character, suffix: String) -> String {
+    return [String(prefix),str,suffix].joined(separator: "")
+}

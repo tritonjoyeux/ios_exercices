@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3A9AA78E1F7CE5EE00D09E7F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9AA78D1F7CE5EE00D09E7F /* main.swift */; };
+		3A9AA7951F7CE60D00D09E7F /* Exercice_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9AA7941F7CE60D00D09E7F /* Exercice_3.swift */; };
+		3A9AA7971F7CE68800D09E7F /* Exercice_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9AA7961F7CE68800D09E7F /* Exercice_1.swift */; };
+		3A9AA7991F7CE69400D09E7F /* Exercice_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9AA7981F7CE69400D09E7F /* Exercice_2.swift */; };
+		3A9AA79B1F7CFE5C00D09E7F /* Exercice_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9AA79A1F7CFE5C00D09E7F /* Exercice_4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		3A9AA78A1F7CE5EE00D09E7F /* Exercices */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Exercices; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9AA78D1F7CE5EE00D09E7F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3A9AA7941F7CE60D00D09E7F /* Exercice_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercice_3.swift; sourceTree = "<group>"; };
+		3A9AA7961F7CE68800D09E7F /* Exercice_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercice_1.swift; sourceTree = "<group>"; };
+		3A9AA7981F7CE69400D09E7F /* Exercice_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercice_2.swift; sourceTree = "<group>"; };
+		3A9AA79A1F7CFE5C00D09E7F /* Exercice_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercice_4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				3A9AA78D1F7CE5EE00D09E7F /* main.swift */,
+				3A9AA7941F7CE60D00D09E7F /* Exercice_3.swift */,
+				3A9AA7961F7CE68800D09E7F /* Exercice_1.swift */,
+				3A9AA7981F7CE69400D09E7F /* Exercice_2.swift */,
+				3A9AA79A1F7CFE5C00D09E7F /* Exercice_4.swift */,
 			);
 			path = Exercices;
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A9AA7991F7CE69400D09E7F /* Exercice_2.swift in Sources */,
 				3A9AA78E1F7CE5EE00D09E7F /* main.swift in Sources */,
+				3A9AA7971F7CE68800D09E7F /* Exercice_1.swift in Sources */,
+				3A9AA7951F7CE60D00D09E7F /* Exercice_3.swift in Sources */,
+				3A9AA79B1F7CFE5C00D09E7F /* Exercice_4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

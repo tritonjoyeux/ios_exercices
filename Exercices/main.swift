@@ -14,31 +14,8 @@ let emir = Person(firstname: "Emir", lastname: "Azaiez", gender: .Male, email: "
 
 let apiManager = ApiManager(baseURL: "https://api.randomuser.me/")
 
-func printMyUser(json: Any) -> Void {
-    let obj = json as! [String: Any]
-    if let result = obj["results"] as? NSArray {
-        let data = result[0] as? [String: Any]
-        
-        let email = data?["email"]
-        print("Email : \(email!)\n")
-        
-        let gender = data?["gender"]
-        print("Gender : \(gender!)\n")
-        
-        if let name = result.value(forKey: "name") as? NSArray {
-            let data = name[0] as? [String: Any]
-            
-            let first = data?["first"]
-            print("FirstName : \(first!)\n")
-            
-            let last = data?["last"]
-            print("LastName : \(last!)\n")
-            
-            let title = data?["title"]
-            print("Title : \(title!)\n")
-        }
-    }
-}
+print(apiManager.getRandomUserHydratedWithPerson(completion: { person in
+    person.show()
+}))
 
-apiManager.getRandomUser(completion: printMyUser)
 RunLoop.main.run()

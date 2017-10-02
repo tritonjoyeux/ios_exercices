@@ -12,6 +12,7 @@
 		3A9AA7971F7CE68800D09E7F /* Exercice_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9AA7961F7CE68800D09E7F /* Exercice_1.swift */; };
 		3A9AA7991F7CE69400D09E7F /* Exercice_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9AA7981F7CE69400D09E7F /* Exercice_2.swift */; };
 		3A9AA79B1F7CFE5C00D09E7F /* Exercice_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9AA79A1F7CFE5C00D09E7F /* Exercice_4.swift */; };
+		BA94D4891F822D4800AB6B17 /* Exercice_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA94D4881F822D4800AB6B17 /* Exercice_5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		3A9AA7961F7CE68800D09E7F /* Exercice_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercice_1.swift; sourceTree = "<group>"; };
 		3A9AA7981F7CE69400D09E7F /* Exercice_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercice_2.swift; sourceTree = "<group>"; };
 		3A9AA79A1F7CFE5C00D09E7F /* Exercice_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercice_4.swift; sourceTree = "<group>"; };
+		BA94D4881F822D4800AB6B17 /* Exercice_5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercice_5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				3A9AA7961F7CE68800D09E7F /* Exercice_1.swift */,
 				3A9AA7981F7CE69400D09E7F /* Exercice_2.swift */,
 				3A9AA79A1F7CFE5C00D09E7F /* Exercice_4.swift */,
+				BA94D4881F822D4800AB6B17 /* Exercice_5.swift */,
 			);
 			path = Exercices;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A9AA7991F7CE69400D09E7F /* Exercice_2.swift in Sources */,
+				BA94D4891F822D4800AB6B17 /* Exercice_5.swift in Sources */,
 				3A9AA78E1F7CE5EE00D09E7F /* main.swift in Sources */,
 				3A9AA7971F7CE68800D09E7F /* Exercice_1.swift in Sources */,
 				3A9AA7951F7CE60D00D09E7F /* Exercice_3.swift in Sources */,
@@ -266,6 +270,7 @@
 				3A9AA7931F7CE5EE00D09E7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -72,8 +72,10 @@ class Existence {
 }
 
 class Person: Existence {
-    enum Gender {
-        case Male, Female, Other
+    enum Gender: String {
+        case Male = "male"
+        case Female = "female"
+        case Other = "other"
     }
     
     var gender: Gender
@@ -102,14 +104,7 @@ class Person: Existence {
         print("firstname : \(self.firstname) ")
         print("lastname : \(self.lastname) ")
         
-        switch self.gender {
-        case .Male:
-            print("gender : Male")
-        case .Female:
-            print("gender : Male")
-        case .Other:
-            print("gender : Other")
-        }
+        print("gender: \(self.gender)")
         
         print("email valid : \(self.email.isValid())")
         print("email : \(self.email)")
